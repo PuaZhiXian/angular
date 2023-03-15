@@ -1,0 +1,36 @@
+<nz-card>
+  <div>
+    <button class="border p-2" nzType="primary" (click)="getUserDetail()">
+      Refresh
+    </button>
+  </div>
+
+  <div class="grid grid-cols-3 gap-2">
+    <client-card *ngFor="let clientDetail of clientDetails"></client-card>
+  </div>
+
+  <span class="material-icons-outlined">account_circle</span>
+  <button class="border p-2 mr-3" nzType="primary" (click)="direct()">
+    Redirect
+  </button>
+
+
+  <div *ngIf="clientDetails">
+    <p>Client Detail</p>
+    <div>
+      userId : {{clientDetails.userId}}
+    </div>
+    <div>
+      id : {{clientDetails.id}}
+    </div>
+    <div>
+      title : {{clientDetails.title}}
+    </div>
+    <div>
+      completed : {{clientDetails.completed}}
+    </div>
+  </div>
+</nz-card>
+
+
+
