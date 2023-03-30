@@ -1,5 +1,12 @@
 {
   "dev.style.guide": "Style Guide",
   "dev.ui.component": "UI Component",
-  "dashboard": "Dashboard"
+  "dashboard": "Dashboard",
+  "tester.id": "ID",
+  "tester.phone": "Phone",
+  "tester.name": "Name",
+  "tester.email": "Email",
+  "tester.client.detail": "Client Detail",
+  "tester.redirect": "Redirect",
+  "tester.refresh": "Refresh"
 }
